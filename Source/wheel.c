@@ -89,7 +89,7 @@ void SetTimeFormat(char * value){
 
 extern char options;
 void deletejson(){
-    if (options & _config && options & (_i | _o)) {
+    if (options & _config && options & (_i | _o | _tf)) {
         FILE * config = fopen("D:\\SBer\\Source\\config.json", "w");
         char *thejson = cJSON_Print(json);
         fprintf(config, "%s", thejson);
