@@ -1,10 +1,10 @@
 {
 	"input":	"D:\\SBer\\default\\input.txt",
 	"output":	"D:\\test.txt",
-	"timeformat":	"\n%Y年 %H:%M:%S\n",
+	"timeformat":	"\n%Y脛锚%m脭脗%d脠脮 %H:%M:%S\n",
 	"default":	{
 		"input":	"D:\\SBer\\default\\input.txt",
 		"output":	"D:\\SBer\\default\\output.txt",
-		"timeformat":	"\n%Y年%m月%d日 %H:%M:%S\n"
+		"timeformat":	"\n%Y脛锚%m脭脗%d脠脮 %H:%M:%S\n"
 	}
 }
