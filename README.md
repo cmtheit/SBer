@@ -1,8 +1,8 @@
 
 # SBer
-ÕâÊÇÒ»¸öÍ¨¹ıÃüÁîĞĞ°ïÖúÄãËæÊ±ËæµØ¼ÇÂ¼Ëæ±ÊµÄ¹¤¾ß¡£<br>
-<br>µ±Ç°°æ±¾£º1.0.0
-<br>½öÖ§³ÖWindowsÆ½Ì¨¡£
+è¿™æ˜¯ä¸€ä¸ªé€šè¿‡å‘½ä»¤è¡Œå¸®åŠ©ä½ éšæ—¶éšåœ°è®°å½•éšç¬”çš„å·¥å…·ã€‚<br>
+<br>å½“å‰ç‰ˆæœ¬ï¼š1.0.0
+<br>ä»…æ”¯æŒWindowså¹³å°ã€‚
 
 ## To use
 Put the whole package "SBer" under "D:\\".<br>
@@ -16,9 +16,11 @@ to test if it could work.
 sber [[-h|-help] || [-v|-ver|-version] || [-config] || [-i|-in|-input [path?]] || [-o|-out|-output path]] [--default] [thought?]
 ```
 
-<aside>×¢Òâ</aside>
+<aside>æ³¨æ„</aside>
 <ul>
-<li>Èç¹ûÄãÏëÒª±£´æÖĞÎÄËæ±Ê»òÖØ¶¨ÏòÖĞÎÄÂ·¾¶£¬ÇëÒÔ<b>ANSI±àÂë</b>·½Ê½±£´æÊä³öÎÄ¼ş£¬ÇÒ²»ÒªÒÔ³ıANSI±àÂëÖ®ÍâµÄÆäËû±àÂë·½Ê½´ò¿ªconfig.json²¢ÊÖ¶¯±àĞ´ÆäÖĞÄÚÈİ¡£²»È»ÂÒÂëÁË±ğÂîÂîßÖßÖµÄ¡£
+  <li>å¦‚æœä½ æƒ³è¦ä¿å­˜ä¸­æ–‡éšç¬”æˆ–é‡å®šå‘ä¸­æ–‡è·¯å¾„ï¼Œè¯·ä»¥<b>ANSIç¼–ç </b>æ–¹å¼ä¿å­˜è¾“å‡ºæ–‡ä»¶ï¼Œä¸”ä¸è¦ä»¥é™¤ANSIç¼–ç ä¹‹å¤–çš„å…¶ä»–ç¼–ç æ–¹å¼æ‰“å¼€config.jsonå¹¶æ‰‹åŠ¨ç¼–å†™å…¶ä¸­å†…å®¹ã€‚ä¸ç„¶ä¹±ç äº†åˆ«éª‚éª‚å’§å’§çš„ã€‚
+  <li>è¯·ä¸è¦ä»¥é™¤ANSIç¼–ç ä¹‹å¤–ç¼–ç æ‰“å¼€æœ¬é¡¹ç›®ä¸­çš„æ–‡ä»¶ã€‚</li>
+  <li>è¯·ä¸€å®šè¦å°†é¡¹ç›®æ–‡ä»¶å¤¹ç›´æ¥æ”¾åœ¨Dç›˜ä¹‹ä¸‹ï¼Œå¦åˆ™ä¸èƒ½æ­£å¸¸å·¥ä½œã€‚</li>
 </ul>
 
 # Options
@@ -43,7 +45,7 @@ The usage above will firstly add the content of the configured file in SB\src\co
 ```s
 sber -i d:\mythought.txt "My thought."
 ```
-The usage above will just redirected the input file to d:\mythought.txt£¬and the last sentence will be add as usual.
+The usage above will just redirected the input file to d:\mythought.txtï¼Œand the last sentence will be add as usual.
 
 
 ## -config
@@ -64,7 +66,7 @@ sber --default -config
 ```
 The above usage will be the same as followed:
 ```shell
-sber -config -i ..\default\input.txt -o ..\default\output.txt -tf \n%YÄê%mÔÂ%dÈÕ %H:%M:%S\n -config
+sber -config -i ..\default\input.txt -o ..\default\output.txt -tf \n%Yå¹´%mæœˆ%dæ—¥ %H:%M:%S\n -config
 ```
 All other options will be ignored. 
 ## thought
@@ -72,9 +74,9 @@ Your thought, may usually should be quoted by
 ' " ' around, will be added at last.
 <hr/>
 
-# Èç¹û¶Ô×÷ÕßĞ¡¸ç¸ç×öµÄĞ¡ÓÎÏ·Ò²¸ĞĞËÈ¤µÄ»°£¬»¶Ó­Çá·Ã<a href="http://www.cmtheit.com">ÎÒµÄÍøÕ¾</a>ÏÂÔØÍæË£à¸£¡
+# å¦‚æœå¯¹ä½œè€…å°å“¥å“¥åšçš„å°æ¸¸æˆä¹Ÿæ„Ÿå…´è¶£çš„è¯ï¼Œæ¬¢è¿è½»è®¿<a href="http://www.cmtheit.com">æˆ‘çš„ç½‘ç«™</a>ä¸‹è½½ç©è€å–”ï¼
 
-É§ÈÅ·½Ê½
+éªšæ‰°æ–¹å¼
 <address>QQ:2905432378</address>
-<address>Î¢ĞÅ£ºzc2905432378</address>
+<address>å¾®ä¿¡ï¼šzc2905432378</address>
 <address>E-mail: cmtheit@outlook.com</address>
