@@ -1,10 +1,10 @@
 {
 	"input":	"D:\\SBer\\default\\input.txt",
 	"output":	"D:\\test.txt",
-	"timeformat":	"\n%YÄê%mÔÂ%dÈÕ %H:%M:%S\n",
+	"timeformat":	"\n%Y/%m/%d/ %H:%M:%S\n",
 	"default":	{
 		"input":	"D:\\SBer\\default\\input.txt",
 		"output":	"D:\\SBer\\default\\output.txt",
-		"timeformat":	"\n%YÄê%mÔÂ%dÈÕ %H:%M:%S\n"
+		"timeformat":	"\n%Y/%m/%d/ %H:%M:%S\n"
 	}
 }
