@@ -60,16 +60,17 @@ void writeto() {
     if (timeformat == NULL) {
         timeformat = GetTimeFormat();
     }
+    if (options & DEFAULT.mask){
+        timeformat = GetDefaultTimeFormat();
+    }
     if (strlen(timeformat) > time_format_max_len) {
         printf("Time format string is too long, please use -config and -tf to specify the time format string.\n");
         exit(1);
     }
     char buffer[128] = {0};
 
-    if (options & DEFAULT.mask){
-        timeformat = GetDefaultTimeFormat();
-    }
-    strftime(buffer, 30, timeformat, now);
+    
+    strftime(buffer, 127, timeformat, now);
     if (options & I.mask) {
         // if open a input file
         fseek(input, 0, SEEK_END);
