@@ -71,7 +71,7 @@ sber -config -i ..\default\input.txt -o ..\default\output.txt -tf \n%Y年%m月%d
 All other options will be ignored. 
 ## thought
 Your thought, may usually should be quoted by 
-' " ' around, will be added at last.
+' " ' around, can be added at last.
 <hr/>
 
 # 如果对作者小哥哥做的小游戏也感兴趣的话，欢迎轻访<a href="http://www.cmtheit.com">我的网站</a>下载玩耍喔！
