@@ -13,7 +13,7 @@ sber -v
 to test if it could work.
 ## Full Usage
 ```
-sber [[-h|-help] || [-v|-ver|-version] || [-config] || [-i|-in|-input [path?]] || [-o|-out|-output path]] [--default] [thought?]
+sber [[-h|-help] || [-v|-ver|-version] || [-config] || [-i|-in|-input [path?]] || [-o|-out|-output path] || [-tf|-tformat|-timeformat]] [--default] [thought?]
 ```
 
 <aside>注意</aside>
